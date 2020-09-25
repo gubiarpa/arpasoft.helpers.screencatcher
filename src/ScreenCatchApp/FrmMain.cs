@@ -76,7 +76,7 @@ namespace ScreenCatchApp
 
         private void btnCatch_Click(object sender, EventArgs e)
         {
-            var path = ConfigurationManager.AppSettings["Path"].ToString();
+            var path = txtFolder.Text;
             var format = ConfigurationManager.AppSettings["Format"].ToString();
 
             _counter = (int)this.numCounter.Value;
@@ -119,5 +119,17 @@ namespace ScreenCatchApp
 
         }
         #endregion
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            var folderDlg = new FolderBrowserDialog();
+            var result = folderDlg.ShowDialog();
+            folderDlg.ShowNewFolderButton = true;
+            if (result == DialogResult.OK)
+            {
+                txtFolder.Text = folderDlg.SelectedPath;
+                Environment.SpecialFolder root = folderDlg.RootFolder;
+            }
+        }
     }
 }
