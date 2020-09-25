@@ -59,7 +59,8 @@ namespace ScreenCatchApp
 
         private void btnExit_Click(object sender, EventArgs e)
         {
-            this.Close();
+            var confirmResult = MessageBox.Show("¿Confirmas que quieres cerrar el aplicativo?", "Confirmación de Cierre", MessageBoxButtons.YesNo);
+            if (confirmResult.Equals(DialogResult.Yes)) this.Close();
         }
 
         private void FrmMain_Load(object sender, EventArgs e)
