@@ -80,7 +80,7 @@ namespace ScreenCatchApp
             var format = ConfigurationManager.AppSettings["Format"].ToString();
 
             _counter = (int)this.numCounter.Value;
-            var fullName = System.IO.Path.Combine(path, format + _counter.ToString("00") + ".bmp");
+            var fullName = System.IO.Path.Combine(path, format + _counter.ToString("00") + ".jpg");
             this.Text = string.Format("{0} ({1})", _titleName, _counter.ToString("00"));
             this.numCounter.Value++;
 
