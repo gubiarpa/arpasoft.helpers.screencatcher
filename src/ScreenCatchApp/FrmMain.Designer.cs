@@ -57,9 +57,9 @@
             // btnCatch
             // 
             this.btnCatch.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnCatch.Location = new System.Drawing.Point(6, 119);
+            this.btnCatch.Location = new System.Drawing.Point(304, 19);
             this.btnCatch.Name = "btnCatch";
-            this.btnCatch.Size = new System.Drawing.Size(162, 44);
+            this.btnCatch.Size = new System.Drawing.Size(143, 26);
             this.btnCatch.TabIndex = 1;
             this.btnCatch.Text = "Catch";
             this.btnCatch.UseVisualStyleBackColor = true;
@@ -70,7 +70,7 @@
             this.btnShowCatcher.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.btnShowCatcher.Location = new System.Drawing.Point(6, 19);
             this.btnShowCatcher.Name = "btnShowCatcher";
-            this.btnShowCatcher.Size = new System.Drawing.Size(162, 44);
+            this.btnShowCatcher.Size = new System.Drawing.Size(143, 26);
             this.btnShowCatcher.TabIndex = 2;
             this.btnShowCatcher.Text = "Show Catcher";
             this.btnShowCatcher.UseVisualStyleBackColor = true;
@@ -79,9 +79,9 @@
             // btnExit
             // 
             this.btnExit.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnExit.Location = new System.Drawing.Point(6, 169);
+            this.btnExit.Location = new System.Drawing.Point(453, 19);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(162, 44);
+            this.btnExit.Size = new System.Drawing.Size(143, 26);
             this.btnExit.TabIndex = 3;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
@@ -90,9 +90,9 @@
             // btnSetPosition
             // 
             this.btnSetPosition.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnSetPosition.Location = new System.Drawing.Point(6, 69);
+            this.btnSetPosition.Location = new System.Drawing.Point(155, 19);
             this.btnSetPosition.Name = "btnSetPosition";
-            this.btnSetPosition.Size = new System.Drawing.Size(162, 44);
+            this.btnSetPosition.Size = new System.Drawing.Size(143, 26);
             this.btnSetPosition.TabIndex = 4;
             this.btnSetPosition.Text = "Set Position";
             this.btnSetPosition.UseVisualStyleBackColor = true;
@@ -106,7 +106,7 @@
             this.grpButtons.Controls.Add(this.btnExit);
             this.grpButtons.Location = new System.Drawing.Point(12, 12);
             this.grpButtons.Name = "grpButtons";
-            this.grpButtons.Size = new System.Drawing.Size(177, 224);
+            this.grpButtons.Size = new System.Drawing.Size(706, 59);
             this.grpButtons.TabIndex = 5;
             this.grpButtons.TabStop = false;
             this.grpButtons.Text = "Buttons";
@@ -123,16 +123,16 @@
             this.grpMeasures.Controls.Add(this.label3);
             this.grpMeasures.Controls.Add(this.label2);
             this.grpMeasures.Controls.Add(this.label1);
-            this.grpMeasures.Location = new System.Drawing.Point(195, 12);
+            this.grpMeasures.Location = new System.Drawing.Point(12, 77);
             this.grpMeasures.Name = "grpMeasures";
-            this.grpMeasures.Size = new System.Drawing.Size(230, 224);
+            this.grpMeasures.Size = new System.Drawing.Size(706, 90);
             this.grpMeasures.TabIndex = 6;
             this.grpMeasures.TabStop = false;
             this.grpMeasures.Text = "Measures";
             // 
             // numCounter
             // 
-            this.numCounter.Location = new System.Drawing.Point(83, 183);
+            this.numCounter.Location = new System.Drawing.Point(530, 42);
             this.numCounter.Name = "numCounter";
             this.numCounter.Size = new System.Drawing.Size(122, 20);
             this.numCounter.TabIndex = 9;
@@ -144,7 +144,7 @@
             // 
             // label5
             // 
-            this.label5.Location = new System.Drawing.Point(7, 180);
+            this.label5.Location = new System.Drawing.Point(527, 16);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(70, 23);
             this.label5.TabIndex = 8;
@@ -153,35 +153,35 @@
             // 
             // txtWidth
             // 
-            this.txtWidth.Location = new System.Drawing.Point(83, 143);
+            this.txtWidth.Location = new System.Drawing.Point(402, 42);
             this.txtWidth.Name = "txtWidth";
             this.txtWidth.Size = new System.Drawing.Size(122, 20);
             this.txtWidth.TabIndex = 7;
             // 
             // txtHeight
             // 
-            this.txtHeight.Location = new System.Drawing.Point(83, 104);
+            this.txtHeight.Location = new System.Drawing.Point(274, 42);
             this.txtHeight.Name = "txtHeight";
             this.txtHeight.Size = new System.Drawing.Size(122, 20);
             this.txtHeight.TabIndex = 6;
             // 
             // txtLeft
             // 
-            this.txtLeft.Location = new System.Drawing.Point(83, 69);
+            this.txtLeft.Location = new System.Drawing.Point(146, 42);
             this.txtLeft.Name = "txtLeft";
             this.txtLeft.Size = new System.Drawing.Size(122, 20);
             this.txtLeft.TabIndex = 5;
             // 
             // txtTop
             // 
-            this.txtTop.Location = new System.Drawing.Point(83, 32);
+            this.txtTop.Location = new System.Drawing.Point(18, 42);
             this.txtTop.Name = "txtTop";
             this.txtTop.Size = new System.Drawing.Size(122, 20);
             this.txtTop.TabIndex = 4;
             // 
             // label4
             // 
-            this.label4.Location = new System.Drawing.Point(7, 141);
+            this.label4.Location = new System.Drawing.Point(402, 16);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(70, 23);
             this.label4.TabIndex = 3;
@@ -190,7 +190,7 @@
             // 
             // label3
             // 
-            this.label3.Location = new System.Drawing.Point(7, 102);
+            this.label3.Location = new System.Drawing.Point(271, 16);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(70, 23);
             this.label3.TabIndex = 2;
@@ -199,7 +199,7 @@
             // 
             // label2
             // 
-            this.label2.Location = new System.Drawing.Point(7, 67);
+            this.label2.Location = new System.Drawing.Point(143, 16);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(70, 23);
             this.label2.TabIndex = 1;
@@ -208,7 +208,7 @@
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(7, 30);
+            this.label1.Location = new System.Drawing.Point(15, 16);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(70, 23);
             this.label1.TabIndex = 0;
@@ -227,9 +227,9 @@
             // 
             this.grpFolderDiag.Controls.Add(this.btnSearch);
             this.grpFolderDiag.Controls.Add(this.txtFolder);
-            this.grpFolderDiag.Location = new System.Drawing.Point(12, 242);
+            this.grpFolderDiag.Location = new System.Drawing.Point(12, 173);
             this.grpFolderDiag.Name = "grpFolderDiag";
-            this.grpFolderDiag.Size = new System.Drawing.Size(413, 67);
+            this.grpFolderDiag.Size = new System.Drawing.Size(706, 67);
             this.grpFolderDiag.TabIndex = 8;
             this.grpFolderDiag.TabStop = false;
             this.grpFolderDiag.Text = "Selecciona carpeta";
@@ -248,7 +248,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(439, 324);
+            this.ClientSize = new System.Drawing.Size(726, 252);
             this.ControlBox = false;
             this.Controls.Add(this.grpFolderDiag);
             this.Controls.Add(this.grpMeasures);
